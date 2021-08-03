@@ -1,3 +1,6 @@
+---
+layout: default-hr
+---
 ## Informacije o korištenim besplatnim domenama
 
 Ova se usluga pruža u testne svrhe i besplatno, ne postoji jamstvo stalne dostupnosti, posebno ne zbog upotrebljivosti domena.
