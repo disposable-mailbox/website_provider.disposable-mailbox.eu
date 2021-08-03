@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<p><img src="/assets/img/post-images/{{page.highresolutionimg}}" alt="{{ page.title }}"></p>
+
+<div class="post">
+{{ content }}
+</div>
