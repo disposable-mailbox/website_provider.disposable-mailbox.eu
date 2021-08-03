@@ -1,4 +1,5 @@
 ---
+layout: default
 title: DISPOSABLE-MAILBOX [ Sprachauswahl | language-selection | Selección de idioma | izbor jezika | taal selectie ]
 permalink: /index.html
 ---
