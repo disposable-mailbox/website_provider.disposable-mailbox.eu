@@ -1,4 +1,4 @@
-name: ISE Quellennachweise
+name: info's @ disposable-mailbox.eu 
 theme: minima
 markdown: kramdown
 highlighter: rouge # pygments or rouge or nullexclude: ["node_modules", "gulpfile.js", "package.json"]
