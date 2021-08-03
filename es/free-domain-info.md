@@ -1,3 +1,6 @@
+---
+layout: default-es
+---
 ## Información sobre los dominios gratuitos utilizados
 
 Este servicio se proporciona con fines de prueba y de forma gratuita, no hay garantía de disponibilidad constante, especialmente no para la usabilidad de los dominios.
