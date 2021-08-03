@@ -1,3 +1,6 @@
+---
+layout: default-nl
+---
 # Info over de gebruikte gratis domeinen
 
 Deze dienst wordt aangeboden voor testdoeleinden en is gratis, er is geen garantie voor constante beschikbaarheid, zeker niet voor de bruikbaarheid van de domeinen.
