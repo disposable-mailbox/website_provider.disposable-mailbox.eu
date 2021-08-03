@@ -1,3 +1,6 @@
+---
+layout: default-en
+---
 ## Info on the free domains used
 
  This service is provided for test purposes and free of charge, there is no guarantee of constant availability, in particular not for the usability of the domains.
