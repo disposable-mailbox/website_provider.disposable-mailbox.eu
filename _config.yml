@@ -1,3 +1,7 @@
+name: ISE Quellennachweise
+theme: minima
+markdown: kramdown
+highlighter: rouge # pygments or rouge or nullexclude: ["node_modules", "gulpfile.js", "package.json"]
 #plugins: jekyll-remote-theme
 #remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox
 #remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-black
@@ -9,4 +13,4 @@
 #remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-red
 #remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-yellow
 #livereload: true
-theme: minima
+
