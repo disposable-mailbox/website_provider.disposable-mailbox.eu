@@ -1,4 +1,6 @@
-## DISCLAIMER
+---
+title: Haftungsausschluss
+---
 
 ### Domains
 Die für das Impressum bzw den Haftungsausschluss zugehörigen Domains sind
