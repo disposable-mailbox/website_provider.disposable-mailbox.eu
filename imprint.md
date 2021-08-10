@@ -1,4 +1,6 @@
-## IMPRESSUM
+---
+title: Impressum
+---
 
 ### Anbieterkennzeichnung
 Diese Webseite ist ein Privates Projekt und wird ohne Gewinnabsichten* Betrieben von:
