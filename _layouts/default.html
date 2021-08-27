@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de-DE">
 <head>
-<title>{{ page.title }}</title>
+<title>{{ page.title | default: site.name }}</title>
 <meta name="robots" content="max-image-preview:large">
 
 <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
@@ -74,7 +74,7 @@
 				
 <article id="post-8" class="post-8 page type-page status-publish hentry">
 	<header class="entry-header">
-		<h1 class="entry-title">{{ page.title }}</h1>
+		<h1 class="entry-title">{{ page.title | default: site.name }}</h1>
 
 		
 		<span class="entry-format-badge genericon genericon-document"><span class="screen-reader-text">Seite</span></span>
