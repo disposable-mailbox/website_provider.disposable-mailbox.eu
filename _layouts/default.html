@@ -10,9 +10,9 @@
 <link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="writr-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css" media="all">
 <link rel="stylesheet" id="genericons-css" href="https://c0.wp.com/p/jetpack/9.9.1/_inc/genericons/genericons/genericons.css" type="text/css" media="all">
-<link rel="stylesheet" id="writr-style-css" href="https://template.pc-cdn.de/wp-content/themes/writr-child/style.css?ver=5.7.2" type="text/css" media="all">
-<link rel="stylesheet" id="writr-color-scheme-css" href="https://template.pc-cdn.de/wp-content/themes/writr/css/grey.css" type="text/css" media="all">
-<link rel="stylesheet" id="writr-wider-style-css" href="https://template.pc-cdn.de/wp-content/themes/writr/css/wider.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-style-css" href="https://template.pc-cdn.de/content/themes/writr/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-color-scheme-css" href="https://template.pc-cdn.de/content/themes/writr/css/{{ site.themecolor }}.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-wider-style-css" href="https://template.pc-cdn.de/content/themes/writr/css/wider.css" type="text/css" media="all">
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9.1/css/jetpack.css" type="text/css" media="all">
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
@@ -22,13 +22,10 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://template.pc-cdn.de/xmlrpc.php?rsd">
 -->
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://template.pc-cdn.de/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 5.7.2">
+<meta name="generator" content="Jekyll">
 <link rel="canonical" href="https://template.pc-cdn.de/index.html">
-<link rel="shortlink" href="https://wp.me/PaIGF2-8">
 <link rel="alternate" type="application/json+oembed" href="https://template.pc-cdn.de/wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://template.pc-cdn.de/wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2F&#038;format=xml">
-
-<link rel="stylesheet" href="https://template.pc-cdn.de/wp-content/plugins/count-per-day/counter.css" type="text/css">
 
 <style type="text/css" media="screen">.extlink sup:after {
 		content: "\2197";
@@ -47,13 +44,13 @@
 {% include header.html %}
 
 
-<body class="home page-template-default page page-id-8 color-scheme-grey sidebar-closed">
+<body class="home page-template-default page page-id-8 color-scheme-{{ site.themecolor }} sidebar-closed">
 <div id="page" class="hfeed site">
 	
 	<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
 			<h1 class="site-title"><a href="{{ site.url }}/index.html" title="Content Deliverly" rel="home">{{ site.name }}</a></h1>
-			<h2 class="site-description">disposable-mailbox.eu CDN</h2>
+			<h2 class="site-description">Disposable-Mailbox CDN</h2>
 		</div>
 {% include navigation.html %}
 			</header><!-- #masthead -->
@@ -119,18 +116,17 @@
 </div>
 
 <script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.9.1/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/wp-content/themes/writr/js/navigation.js?ver=20120511" id="writr-navigation-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/wp-content/themes/writr/js/skip-link-focus-fix.js?ver=20130115" id="writr-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/navigation.js" id="writr-navigation-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/skip-link-focus-fix.js" id="writr-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/underscore.min.js" id="underscore-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/wp-content/themes/writr/js/writr.js?ver=20120511" id="writr-script-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/intersection-observer.js?ver=1.1.3" id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/writr.js" id="writr-script-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.de/content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/intersection-observer.js" id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
 <script type="text/javascript" id="jetpack-lazy-images-js-extra">
 /* <![CDATA[ */
 var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://template.pc-cdn.de/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/lazy-images.js?ver=1.1.3" id="jetpack-lazy-images-js"></script>
-<script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.de/content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/lazy-images.js" id="jetpack-lazy-images-js"></script>
 
 
 </body>
