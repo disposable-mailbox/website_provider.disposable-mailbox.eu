@@ -1,16 +1,6 @@
 name: info's @ disposable-mailbox.eu 
-theme: minima
 markdown: kramdown
 highlighter: rouge # pygments or rouge or nullexclude: ["node_modules", "gulpfile.js", "package.json"]
-#plugins: jekyll-remote-theme
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-black
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-blue
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-blue2
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-green
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-grey
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-orange
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-red
-#remote_theme: pfeifferch/templates-r-jekyll-theme@disposablemailbox-yellow
-#livereload: true
-
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+#permalink: /:year/:month/:day/:title:output_ext
+themecolor: blue2 # blue, blue2, yellow  orange green grey purple OR red
