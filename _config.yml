@@ -8,12 +8,12 @@ themecolor: red # blue, blue2, yellow  orange green grey purple OR red
 defaults:
     -
      scope:
-         path: ""
+         path: "de"
      values:
          author: "Disposable-mailbox.eu"
          layout: post
          lang: de
-         base-url: "/"
+         base-url: "/de/"
     -
      scope:
          path: en
@@ -41,7 +41,7 @@ defaults:
 
 # Value to use into url per language
 langs-value:
-    de: ""
+    de: de
     en: en
     es: es
     nl: nl
@@ -52,9 +52,9 @@ t:
     home:
         de: "Startseite"
         en: "Home"
-        es: ""
-        hr: ""
-        nl: ""
+        es: "Página de inicio"
+        hr: "Početna stranica"
+        nl: "Startpagina"
     contact:
         de: "Kontakt"
         en: "Contact"
