@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Haftungsausschluss
+lang: de
 ---
 
 ### Domains
