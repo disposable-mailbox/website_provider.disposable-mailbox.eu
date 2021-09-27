@@ -3,4 +3,97 @@ markdown: kramdown
 highlighter: rouge # pygments or rouge or nullexclude: ["node_modules", "gulpfile.js", "package.json"]
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 #permalink: /:year/:month/:day/:title:output_ext
-themecolor: yellow # blue, blue2, yellow  orange green grey purple OR red
+themecolor: red # blue, blue2, yellow  orange green grey purple OR red
+
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         author: "Disposable-mailbox.eu"
+         layout: post
+         lang: de
+         base-url: "/"
+    -
+     scope:
+         path: en
+     values:
+         lang: en
+         base-url: "/en/"
+    -
+     scope:
+         path: es
+     values:
+         lang: es
+         base-url: "/es/"
+    -
+     scope:
+         path: nl
+     values:
+         lang: nl
+         base-url: "/nl/"
+    -
+     scope:
+         path: hr
+     values:
+         lang: hr
+         base-url: "/hr/"
+
+# Value to use into url per language
+langs-value:
+    de: ""
+    en: en
+    es: es
+    nl: nl
+    hr: hr
+
+# Translation
+t:
+    home:
+        de: "Startseite"
+        en: "Home"
+        es: ""
+        hr: ""
+        nl: ""
+    contact:
+        de: "Kontakt"
+        en: "Contact"
+        es: "Contacto"
+        hr: "Kontakt"
+        nl: "Contact"
+    imprint:
+        de: "Impressum"
+        en: "Imprint"
+        es: "imprimir"
+        hr: "otisak"
+        nl: "Afdruk"
+    disclaimer:
+        de: "Haftungsausschluss"
+        en: "disclaimer"
+        es: "Descargo de responsabilidad"
+        hr: "odricanje"
+        nl: "vrijwaring"
+    privacypolicies:
+        de: "Datenschutzerklärung"
+        en: "privacypolicies"
+        es: "políticas de privacidad"
+        hr: "politike privatnosti"
+        nl: "Privacy beleid"
+    imgse:
+        de: "Quellennachweise"
+        en: "References"
+        es: "Referencias"
+        hr: "Reference"
+        nl: "Referenties"
+    subtitle:
+        de: ""
+        en: ""
+        es: ""
+        hr: ""
+        nl: ""
+    footer-article:
+        de: ""
+        en: ""
+        es: ""
+        hr: ""
+        nl: ""
