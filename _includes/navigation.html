@@ -10,28 +10,13 @@
     font-size: 12em;
     font-weight: 700;*/
     color: #303030;
-    text-shadow: 1px 1px 1px #919191,
-        1px 2px 1px #919191,
-        1px 3px 1px #919191,
-        1px 4px 1px #919191,
-        1px 5px 1px #919191,
-        /*1px 6px 1px #919191,
-        1px 7px 1px #919191,
-        1px 8px 1px #919191,
-        1px 9px 1px #919191,
-        1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4)*/;
+    text-shadow: 1px 1px 1px #919191;
 }
 </style>
 <nav class="site-nav ryan">
 <ul>
  <li><i class=" ryan fas fa-home" ></i> 
 <a  class="ryan" href="{{site.url}}/{{ page.lang }}">{{ site.t['home'][page.lang] }}</a></li>
-
-
 
 <li><img src="https://www.disposable-mailbox.eu/locale/Language-Icons/icon128px-exported-black.jpg" width="13" height="13" alt="Sprachauswahl | language-selection | Selección de idioma | izbor jezika | taal selectie"><a  class="ryan" href="{{site.url}}/de/index.html" >DE</a></li>
 {% if page.lang == "de" %}
@@ -52,7 +37,7 @@
     <li><a  class="ryan" href="{{site.url}}/en/why.html" >Why temporary eMails?</a></li>
     <li><a  class="ryan" href="{{site.url}}/en/FAQ.html" >FAQ</a></li>
     <li><a  class="ryan" href="{{site.url}}/en/news.html" >News</a> </li>
-   </ul>
+</ul>
 {% endif %}
 <li><img src="https://www.disposable-mailbox.eu/locale/Language-Icons/icon128px-exported-black.jpg" width="13" height="13" alt="Sprachauswahl | language-selection | Selección de idioma | izbor jezika | taal selectie"><a  class="ryan" href="{{site.url}}/es/index.html" >ES</a></li>
 {% if page.lang == "es" %}
@@ -82,7 +67,7 @@
    <li><a  class="ryan" href="{{site.url}}/nl/why.html" >Waarom e-mails weggooien?</a></li>
    <li><a  class="ryan" href="{{site.url}}/nl/FAQ.html" >FAQ</a></li>
    <li><a  class="ryan" href="{{site.url}}/nl/news.html" >Nieuws</a></li>
-  </ul>
+</ul>
 {% endif %}
 <hr style="width: 75%" class="ryan">
  <li><i class="ryan fas fa-folder-plus" ></i> <a  class="ryan" href="https://goto.disposable-mailbox.eu/dmbcontact"         >{{ site.t['contact'][page.lang] }}</a></li> 
@@ -90,7 +75,7 @@
  <li><i class="ryan far fa-folder-open" ></i> <a  class="ryan" href="https://goto.disposable-mailbox.eu/dmbdisclaimer"      >{{ site.t['disclaimer'][page.lang] }}</a></li>
  <li><i class="ryan far fa-folder-open" ></i> <a  class="ryan" href="https://goto.disposable-mailbox.eu/dmbprivacypolicies" >{{ site.t['privacypolicies'][page.lang] }}</a></li>
  <li><i class="ryan far fa-folder-open" ></i> <a  class="ryan" href="https://goto.disposable-mailbox.eu/dmbise"             >{{ site.t['imgse'][page.lang] }}</a></li>
- </ul>
+</ul>
 </nav>
 
 </div>
