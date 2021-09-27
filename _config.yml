@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: rouge # pygments or rouge or nullexclude: ["node_modules", "gulpfile.js", "package.json"]
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 #permalink: /:year/:month/:day/:title:output_ext
-themecolor: blue # blue, blue2, yellow  orange green grey purple OR red
+themecolor: blue2 # blue, blue2, yellow  orange green grey purple OR red
 
 defaults:
     -
