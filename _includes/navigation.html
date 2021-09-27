@@ -1,4 +1,15 @@
-<div class="header-position" style="a {text-decoration:none; color: #f5f5f5;
+<div class="header-position">
+
+.ryan {
+    /*position: absolute;
+    top: 50%; 
+    right: 50%;*/
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    /*font-family: verdana;
+    font-size: 12em;
+    font-weight: 700;*/
+    color: #f5f5f5;
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
@@ -12,12 +23,13 @@
     1px 18px 6px rgba(16,16,16,0.4),
     1px 22px 10px rgba(16,16,16,0.2),
     1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);">
+    1px 30px 60px rgba(16,16,16,0.4);
+}
 
-<nav class="site-nav">
+<nav class="site-nav ryan">
 <ul>
- <li><i class="fas fa-home" ></i> 
-<a href="{{site.url}}/{{ page.lang }}"        >{{ site.t['home'][page.lang] }}</a></li>
+ <li><i class="fas fa-home ryan" ></i> 
+<a href="{{site.url}}/{{ page.lang }}"    class="ryan"     >{{ site.t['home'][page.lang] }}</a></li>
 
 
 
