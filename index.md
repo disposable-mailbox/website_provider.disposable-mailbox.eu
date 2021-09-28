@@ -6,4 +6,5 @@ title: DISPOSABLE-MAILBOX [ Sprachauswahl | language-selection | Selección de i
 permalink: /index.html 
 ---
 ## Sprachauswahl | language-selection | Selección de idioma | izbor jezika | taal selectie 
-![language selection](https://www.disposable-mailbox.eu/locale/Language-Icons/icon128px-exported-black.jpg) # [DE](https://gh.disposable-mailbox.eu/de/index.html) -|- [EN](https://gh.disposable-mailbox.eu/en/index.html) -|- [ES](https://gh.disposable-mailbox.eu/es/index.html) -|- [HR](https://gh.disposable-mailbox.eu/hr/index.html) -|- [NL](https://gh.disposable-mailbox.eu/nl/index.html) 
+![language selection](https://www.disposable-mailbox.eu/locale/Language-Icons/icon128px-exported-black.jpg) 
+# [DE]({{ site.url }}/de/index.html) -|- [EN]({{ site.url }}/en/index.html) -|- [ES]({{ site.url }}/es/index.html) -|- [HR]({{ site.url }}/hr/index.html) -|- [NL]({{ site.url }}/nl/index.html) 
