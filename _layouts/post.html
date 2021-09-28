@@ -1,14 +1,35 @@
 ---
 layout: default
 ---
-<!-- <h2>{{ page.title }}</h2> -->
+<!--<h2>{{ page.title }}</h2>-->
+<p>
+   <span class="meta genericon genericon-month">&nbsp;</span>Veröffentlicht am: {{ page.date | date: "%d.%m.%Y" }}
+{% if author.name or page.author or post.author %}
+    <span class="meta genericon genericon-user">&nbsp;</span>Veröffentlicht von:
+      <a href="{{ site.baseurl }}/author/{{ author.name }}.html">{{ author.name }}</a> 
+      <a href="{{ site.baseurl }}/author/{{ page.author }}.html">{{ page.author }}</a> 
+      <a href="{{ site.baseurl }}/author/{{ post.author }}.html">{{ post.author }}</a> 
+{% endif %}
+</p>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<!-- //dpmb: not in use
-<p><img src="/assets/img/post-images/{{page.highresolutionimg}}" alt="{{ page.title }}"></p>
--->
+{% if page.highresolutionimg != "" and page.highresolutionimg != "none" and page.highresolutionimg != nil %} 
+<p><img src="/assets/img/post-images/{{page.highresolutionimg}}" alt="Image: {{ page.title }}"></p>
+{% else %} 
+<!-- kein Bild hinterlegt -->
+{% endif %}
 
 <div class="post">
 {{ content }}
 </div>
+
+{% if site.deactivaterelatedposts == true %} 
+<!-- site_deactivate_related_posts = {{ site.deactivaterelatedposts }} -->
+{% else %} 
+  {% if page.deactivaterelatedposts == true %} 
+   <!-- page_deactivate_related_posts = {{ page.deactivaterelatedposts }} -->
+  {% else %} 
+ <!-- 2 site_deactivate_related_posts = {{ site.deactivaterelatedposts }} -->
+ <!-- 2 page_deactivate_related_posts = {{ page.deactivaterelatedposts }} --> 
+ {% include related_posts.html %}
+  {% endif %}
+{% endif %}
