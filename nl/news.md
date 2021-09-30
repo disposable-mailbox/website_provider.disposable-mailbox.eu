@@ -1,7 +1,7 @@
 ---
 layout: default-nl
 ---
-[Startpagina](https://gh.disposable-mailbox.eu/nl/) - [Dit is hoe het werkt](https://gh.disposable-mailbox.eu/nl/about.html) - [Waarom e-mails weggooien?](https://gh.disposable-mailbox.eu/nl/why.html) - [FAQ](https://gh.disposable-mailbox.eu/nl/FAQ.html) - [Nieuws](https://gh.disposable-mailbox.eu/nl/news.html) 
+[Startpagina]({{ site.url }}/nl/) - [Dit is hoe het werkt]({{ site.url }}/nl/about.html) - [Waarom e-mails weggooien?]({{ site.url }}/nl/why.html) - [FAQ]({{ site.url }}/nl/FAQ.html) - [Nieuws]({{ site.url }}/nl/news.html) 
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-es
 ---
-[Página de inicio](https://gh.disposable-mailbox.eu/es/) - [Así es como funciona](https://gh.disposable-mailbox.eu/es/about.html) - [¿Por qué tirar los correos electrónicos?](https://gh.disposable-mailbox.eu/es/why.html) - [Preguntas más frecuentes](https://gh.disposable-mailbox.eu/es/FAQ.html) - [Noticias](https://gh.disposable-mailbox.eu/es/news.html) 
+[Página de inicio]({{ site.url }}/es/) - [Así es como funciona]({{ site.url }}/es/about.html) - [¿Por qué tirar los correos electrónicos?]({{ site.url }}/es/why.html) - [Preguntas más frecuentes]({{ site.url }}/es/FAQ.html) - [Noticias]({{ site.url }}/es/news.html) 
 
 ---
 
@@ -15,11 +15,11 @@ El servicio de disposable-mailbox.eu se basa en el repositorio de GitHub y tambi
 (Entonces, como el repositorio: este es un software beta, todavía hay problemas sin resolver).
 ¡Sin registro, completamente sin compromiso, anónimo y gratuito!
 
-- [Página de inicio](https://gh.disposable-mailbox.eu/es/) 
-- [Así es como funciona](https://gh.disposable-mailbox.eu/es/about.html) 
-- [¿Por qué tirar los correos electrónicos?](https://gh.disposable-mailbox.eu/es/why.html) 
-- [Preguntas más frecuentes](https://gh.disposable-mailbox.eu/es/FAQ.html) 
-- [Noticias](https://gh.disposable-mailbox.eu/es/news.html) 
+- [Página de inicio]({{ site.url }}/es/) 
+- [Así es como funciona]({{ site.url }}/es/about.html) 
+- [¿Por qué tirar los correos electrónicos?]({{ site.url }}/es/why.html) 
+- [Preguntas más frecuentes]({{ site.url }}/es/FAQ.html) 
+- [Noticias]({{ site.url }}/es/news.html) 
 
 
 ---

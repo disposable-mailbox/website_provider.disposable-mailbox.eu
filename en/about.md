@@ -1,7 +1,7 @@
 ---
 layout: default-en
 ---
-[Home](https://gh.disposable-mailbox.eu/en/) - [How it works](https://gh.disposable-mailbox.eu/en/about.html) - [Why temporary eMails?](https://gh.disposable-mailbox.eu/en/why.html) - [FAQ](https://gh.disposable-mailbox.eu/en/FAQ.html) - [News](https://gh.disposable-mailbox.eu/en/news.html) 
+[Home]({{ site.url }}/en/) - [How it works]({{ site.url }}/en/about.html) - [Why temporary eMails?]({{ site.url }}/en/why.html) - [FAQ]({{ site.url }}/en/FAQ.html) - [News]({{ site.url }}/en/news.html) 
 
 ---
 
@@ -33,7 +33,7 @@ Use Disposable-mailbox.eu where you do not want to use your private email addres
 So you can protect yourself against spam and unwanted newsletters!
 
 If you don't know what disposable email addresses are, visit the page:
-[Why do you use disposable email addresses](https://gh.disposable-mailbox.eu/en/why.html)
+[Why do you use disposable email addresses]({{ site.url }}/en/why.html)
 
 The service of disposable-mailbox.eu is based on the [GitHub Repository](https://github.com/pfeifferch/disposable-mailbox) and is at the same time the live development and test environment.
 
