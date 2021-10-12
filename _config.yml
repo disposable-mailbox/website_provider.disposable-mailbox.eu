@@ -18,24 +18,28 @@ defaults:
      scope:
          path: en
      values:
+         author: "Disposable-mailbox.eu"
          lang: en
          base-url: "/en/"
     -
      scope:
          path: es
      values:
+         author: "Disposable-mailbox.eu"
          lang: es
          base-url: "/es/"
     -
      scope:
          path: nl
      values:
+         author: "Disposable-mailbox.eu"
          lang: nl
          base-url: "/nl/"
     -
      scope:
          path: hr
      values:
+         author: "Disposable-mailbox.eu"
          lang: hr
          base-url: "/hr/"
 
