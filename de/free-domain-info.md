@@ -5,7 +5,7 @@ layout: default-de
 
 Dieser Dienst wird zu Testzwecken und Unentgeltlich bereitgestellt, es besteht keine Garantie für eine ständige Verfügbarkeit insbesondere nicht für die Nutzbarkeit der Domains.
 
-Für die Postfächer nutzen wir die Kostenfreien Domains des Anbieters Freenom. 
+Für die Postfächer nutzen wir, bis auf free.disposabl.email die Kostenfreien Domains des Anbieters Freenom. 
 
 Bei den Free-Domains behält sich der Anbieter in den AGB das Recht vor, Domains abzuschalten, anderen Kunden zu übergeben, eigene Inhalte aufzuschalten, abzuschalten und andere Änderungen nach eigenem Ermessen vorzunehmen.
 Von diesem Recht macht der Anbieter auch gebrauch, sodass eine dauerhafte Nutzbarkeit der Postfächer keinesfalls gegeben ist. 
@@ -14,4 +14,4 @@ Das hat einerseits den Vorteil, das die Domains aufgrund der Rotation nicht so o
 
 
 
-Die Domain disposable-mailbox.eu ist eine feste Domain für die Website (jedoch nicht für den Mail-Empfang freigeschaltet) und es ist nicht geplant, diese abzuschalten. 
+Die Domains disposable-mailbox.eu und disposabl.email sind feste Domains für die Website (disposable-mailbox.eu jedoch nicht für den Mail-Empfang freigeschaltet) und es ist nicht geplant, diese abzuschalten. 
