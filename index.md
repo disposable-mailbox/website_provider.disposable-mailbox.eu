@@ -9,10 +9,10 @@ title: webring
 
 ## links re:
 <ul class="posts"> 
-{% assign posts = site.posts | sort: 'post_date' | reverse %} 
+{% assign posts = site.categories.webring | sort: 'post_date' | reverse %} 
 {% for post in site.categories.webring %} <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> {% endfor %} </ul>
 
 ## links :
 <ul class="posts"> 
-{% assign posts = site.posts | sort: 'post_date' %} 
+{% assign posts = site.categories.webring | sort: 'post_date' %} 
 {% for post in site.categories.webring %} <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> {% endfor %} </ul>
