@@ -1,5 +1,6 @@
 ---
 lang: de
+title: webring
 ---
 
 # alle diese Seiten nutzen oder basieren auf [disposable-mailbox](https://github.com/disposable-mailbox/disposable-mailbox)
