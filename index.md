@@ -8,4 +8,4 @@ title: webring
 
 
 ## links:
-<ul class="posts"> {% for post in site.categories.webring %} <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> {% endfor %} </ul>
+<ul class="posts"> {% for post in site.categories.webring | sort: 'post_date' | reverse %} <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> {% endfor %} </ul>
